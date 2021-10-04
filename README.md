@@ -7,9 +7,9 @@ Bash Aliases for NPM and Yarn and Git
 
 `ni` - runs `npm install`
 
-`nis` - runs `npm install --save`
+`nis [package]` - runs `npm install --save [package]`
 
-`nid` - runs `npm install --save-dev`
+`nid [package]` - runs `npm install --save-dev [package]`
 
 `n0ni` - removes package-lock files and runs `npm install`
 
@@ -19,11 +19,11 @@ Bash Aliases for NPM and Yarn and Git
 
 ## Git Basics
 
-`go` - runs `git clone`
+`go [repo]` - runs `git clone [repo]`
 
-`get` - run `git checkout`
+`get [branch]` - run `git checkout [branch]`
 
-`gen` - runs `git checkout -b`
+`gen [branch]` - runs `git checkout -b [branch]`
 
 `grh` - runs `git reset --hard HEAD`
 
